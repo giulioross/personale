@@ -25,3 +25,6 @@ products.forEach(product => {
         }, 1000); // 1000 ms (1 secondo) dopo il click
     });
 });
+const login=document.getElementById('login').onclick=function () {
+    window.location.href='login.html'
+}
